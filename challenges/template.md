@@ -1,6 +1,8 @@
 # Stake Wars: Episode III. Challenge 000
 Published on: 2022-07-12
+
 Updated on: 2022-07-12
+
 Submitted by: Partner-name
 
 //TODO - 2-row summary of the challenge.
