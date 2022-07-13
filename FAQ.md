@@ -2,11 +2,11 @@
 
 
 
-1. What is Stake Wars: Episode III?
+### 1. What is Stake Wars: Episode III?
 Stake Wars is a program that helps the community become familiar with what it means to be a NEAR validator, and gives them an early chance to access the chunk-only producer. The rewards offered by the Stake Wars program supports new members that want to join mainnet as a validator starting from the end of September 2022.
 
 
-2. Where do I start?
+### 2. Where do I start?
 Visit [https://near.org/stakewars/](https://near.org/stakewars/) to get the latest information about the program and how to join it. 
 
 3. Who organizes Stake Wars?
