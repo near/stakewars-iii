@@ -1,7 +1,7 @@
 ### Stake Wars Rules
 
 1. Participating in the program implies you agree with the rules below.
-2. The landing page for Stake Wars: Episode 3 is [https://near.org/stakewars/](https://near.org/stakewars/). We publish challenges on the Discord [#stake-wars](https://discord.com/invite/ZMPr3VB) channel and host them on [GitHub](https://github.com/near/stakewars-iii).
+2. The landing page for Stake Wars: Episode 3 is [https://near.org/stakewars/](https://near.org/stakewars/). We publish challenges on the Discord [#stake-wars](https://discord.com/channels/490367152054992913/991851497002381363) channel and host them on [GitHub](https://github.com/near/stakewars-iii).
 3. The ID you will have throughout the program is the email address you used for your registration.
 4. Stake Wars starts on July 13th 2022, and ends on September 9th 2022. Challenges will be announced regularly throughout the entire duration of the program.
 5. Your participation in the program is based on your original work and effort. In other words don’t take someone else’s work and use it as your own.
