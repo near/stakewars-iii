@@ -32,10 +32,16 @@ Stake Wars launched on Wednesday July 13th and continues until Friday September 
 
 Challenges will be announced throughout the entire period of the program, so stay tuned to address them quickly. Some challenges will have a limited timeframe when they can be solved.
 
-#### 8. Who can join?
+#### 8. Until when can I join?
+
+You can join Stake Wars at any moment before the end date of the program. However, we encourage you to join as early as you can, to have enough time for solving the challenges and unlocking the rewards, and to take advantage of the support you will receive.
+
+Keep in mind that some challenges may need strict timelines and cannot be accessed after their due date. Also, we plan to move the playground from shardnet to testnet in early August 2022, and at that moment shardnet will no longer be in focus.
+
+#### 9. Who can join?
 We encourage anyone to join Stake Wars, solve the challenges, learn and be part of the program. However, there are a few restrictions related to reward eligibility: existing mainnet validators (as of July 13th 2022) are not eligible to receive rewards shared as delegated NEAR tokens. Members of Pagoda, Meta Pool, LiNEAR, Everstake and Open Shards Alliance are not eligible for any type of rewards.
 
-#### 9. What are the rewards?
+#### 10. What are the rewards?
 Stake Wars is composed of technical challenges that you are encouraged to solve. Each challenge gives you access to rewards that can include:
 
 * NEAR Tokens delegated to your mainnet account, starting end of September 2022. The total amount of delegated tokens that each participant can receive is limited to 50.000 NEAR.
@@ -43,7 +49,7 @@ Stake Wars is composed of technical challenges that you are encouraged to solve.
 
 Keep in mind that receiving the rewards may require identity verification.
 
-#### 10. Where will Stake Wars take place?
+#### 11. Where will Stake Wars take place?
 Stake Wars is an online-only event, and participant support will be offered through Discord.
 
 The challenges proposed by the program will take place in the dedicated NEAR shardnet network and in the already existing NEAR testnet network. The tokens used during for operating nodes during Stake Wars are test tokens, unrelated to the mainnet NEAR tokens.
