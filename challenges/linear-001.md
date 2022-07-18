@@ -17,7 +17,7 @@ If you don’t have anything in mind to start with, please consider the follow e
 - A chartio-like data dashboard or a well-structured spreadsheet.
 - A brief summary of what we could learn from those data and how NEAR can use those data to improve staking.
 
-### Requirements:
+### Acceptance criteria:
 - Please provide data insights other than what we can directly get from the NEAR explorer / NEAR wallet.
 - As for the outcome, a visualized data dashboard is preferred, also a spreadsheet with well-structured data is also acceptable.
 - What we can learn from the data actually matters, so please also provide a summary of how you interpret the data and how we can improve the NEAR system based on your work.

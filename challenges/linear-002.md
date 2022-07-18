@@ -10,7 +10,7 @@ Aurora launched the first staking farm on NEAR early this year and there’s a l
 - A working staking farm 2.0 smart contract
 - Design documents and technical notes.
 
-### Requirements:
+### Acceptance criteria:
 - The solution should be based on the existing NEAR staking system. 
 - Either a working smart contract or a practical proposal is welcomed.
 - A clear illustration of how the new proposed solution can improve existing staking farm is required.
