@@ -1,4 +1,7 @@
 # Data Science for Staking      
+* Published on: 2022-07-17
+* Updated on: 2022-07-17
+* Submitted by: LiNEAR
 
 ### Description:
 

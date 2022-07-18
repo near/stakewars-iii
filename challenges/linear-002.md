@@ -1,4 +1,7 @@
 # Staking Farm 2.0     
+* Published on: 2022-07-17
+* Updated on: 2022-07-17
+* Submitted by: LiNEAR
 
 ### Description:
 Aurora launched the first staking farm on NEAR early this year and there’s a lot of fun. However there are still some unresolved problems associated with it, such as how to make the APY sustainable, how to make staking farm more decentralized and how one user could earn multiple staking farm rewards at the same time, etc. Please propose an improved staking farm solution which could help to solve some of these challenges.
