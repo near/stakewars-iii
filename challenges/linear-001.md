@@ -11,8 +11,8 @@ If you don’t have anything in mind to start with, please consider the follow e
 - Historical data of the number of delegators (and delegation amount) on each validator node.
 
 ### Deliverable:
-- A chartio-like data dashboard of your findings.
-- Or a well-structured spreadsheet doc.
+- A chartio-like data dashboard or a well-structured spreadsheet.
+- A brief summary of what we could learn from those data and how NEAR can use those data to improve staking.
 
 ### Requirements:
 - Please provide data insights other than what we can directly get from the NEAR explorer / NEAR wallet.
