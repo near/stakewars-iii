@@ -1,6 +1,6 @@
 # Data Science for Staking      
-* Published on: 2022-07-17
-* Updated on: 2022-07-17
+* Published on: 2022-07-22 (we expect the challenge to ready for the participants on 2022-07-22; until then it is considered a draft and minor changes may occur)
+* Updated on: 2022-07-22
 * Submitted by: LiNEAR
 
 ### Description:
