@@ -9,3 +9,8 @@
 | 007                                                                      | Draft     | 2022-07-22     | LiNEAR    | Data Science for Staking                                                          | 20 DNP           | Optional | Shardnet       |
 | 008                                                                      | Draft     | 2022-07-26     | Meta Pool | Split revenue for staking rewards                                                 | 30 DNP<br>50 UNP | Optional | Shardnet       |
 | 009                                                                      | Draft     | 2022-07-29     | LiNEAR    | Staking Farm 2.0                                                                  | 30 DNP<br>50 UNP | Optional | Shardnet       |
+
+
+Summary for the point system:
+    * Delegated NEAR Points (DNP): at the end of the Stake Wars program, each Delegated NEAR Point (DNP) will be translated into 500 NEAR tokens delegated to your mainnet account for 1 year.
+    * Unlocked NEAR Points (UNP): at the end of the Stake Wars program, each Unlocked NEAR Point (UNP) will be translated into 1 unlocked NEAR token, granted to your mainnet account.
