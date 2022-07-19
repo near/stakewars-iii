@@ -18,6 +18,6 @@
 
 * Solving each challenge may offer you an amount of points. These are included in the description of the challenge. One challenge can offer multiple types of rewards, depending on the complexity of the work required and how the effort is split into different sections of the challenge. 
 * The points are split into 2 categories:
-    * Delegation points. At the end of the Stake Wars program, each Delegation Point will be translated into 500 NEAR tokens delegated to your mainnet account for 1 year.
-    * Grant points. At the end of the Stake Wars program, each Grant Point will be translated into 1 unlocked NEAR token, granted to your mainnet account.
+    * Delegated NEAR Points (DNP). At the end of the Stake Wars program, each Delegated NEAR Point (DNP) will be translated into 500 NEAR tokens delegated to your mainnet account for 1 year.
+    * Unlocked NEAR Points (UNP). At the end of the Stake Wars program, each Unlocked NEAR Point (UNP) will be translated into 1 unlocked NEAR token, granted to your mainnet account.
 * A scoreboard will be published to keep track of all the activity that each participant had throughout the different challenges.
