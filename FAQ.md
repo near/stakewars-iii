@@ -44,7 +44,7 @@ We encourage anyone to join Stake Wars, solve the challenges, learn and be part 
 #### 10. What are the rewards?
 Stake Wars is composed of technical challenges that you are encouraged to solve. Each challenge gives you access to rewards that can include:
 
-* NEAR Tokens delegated to your staking pool on mainnet after phase 1 of sharding launches on mainnet in late September 2022. The total amount of delegated tokens that each participant can receive is limited to 50.000 NEAR.
+* NEAR Tokens delegated to your staking pool on mainnet after phase 1 of sharding launches on mainnet in late September 2022. The total amount of delegated tokens that each participant can receive is limited to 50,000 NEAR.
 * NEAR Tokens granted unlocked to your mainnet account. The total amount of granted tokens that each participant can receive is limited to 500 NEAR.
 
 Keep in mind that receiving the rewards may require identity verification.
