@@ -1,3 +1,5 @@
+This file contains an overview of the published and draft challenges for Stake Wars. We plan to release new challenges every few days, and this file will be constantly updated to include the new challenges tha are coming up.
+
 | ID                                                                       | Status    | Date published | Owner     | Description                                                                       | Max points       | Type     | Target network |
 | ------------------------------------------------------------------------ | --------- | -------------- | --------- | --------------------------------------------------------------------------------- | ---------------- | -------- | -------------- |
 | [001](https://github.com/near/stakewars-iii/blob/main/challenges/001.md) | Published | 2022-07-13     | OSA       | Create your Shardnet wallet & deploy the NEAR CLI.                                | \-               | Core     | Shardnet       |
