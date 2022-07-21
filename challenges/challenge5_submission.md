@@ -16,7 +16,7 @@ then reserve your Account ID
 
 ![img](./images/near_wallet_2.png)
 
-and choose a security method among available options (Seed Phrase, Ledger, etc)
+and choose a security method among available options (Seed Phrase, Ledger, etc).
 
 ![img](./images/near_wallet_3.png)
 
@@ -41,13 +41,13 @@ So among those options available on https://www.webtropia.com/en/cloud-vps.html 
 
 ![img](./images/webtropia_vps_options_1.png) ![img](./images/webtropia_vps_options_2.png) 
 
-> This VPS has only 200GB SSD but you can always expand storage in [Webtropia's User Portal](https://zkm.webtropia.com/s/vserver/overview)
+> This VPS has only 200GB SSD but you can always expand storage in [Webtropia's User Portal](https://zkm.webtropia.com/s/vserver/overview).
 
 You can also choose from several operating system options:
 
 ![img](./images/webtropia_vps_options_3.png)
 
-> I'd recommend Ubuntu 18.04/20.04 or Debian 10/11 distributions
+> I'd recommend Ubuntu 18.04/20.04 or Debian 10/11 distributions.
 
 Once operating system is installed make sure the server is good for StakeWars and run this command in console: 
 
@@ -67,7 +67,7 @@ If you see this output you should be fine!
 
 ## Set up NEAR-CLI
 
-In order to communicate with the NEAR blockchain via remote procedure calls (RPC) you should install NEAR-CLI:
+In order to communicate with the NEAR blockchain via remote procedure calls (RPC) you should install NEAR-CLI.
 
 Before you start make sure the Linux system is up-to-date:
 
@@ -89,13 +89,13 @@ Check `Node.js` and `npm` versions after:
 node -v
 ```
 
-> Should be v18 or higher
+> Should be v18 or higher.
 
 ```
 npm -v
 ```
 
-> Should be v8 or higher
+> Should be v8 or higher.
 
 Now you you are all set and can install NEAR-CLI:
 
@@ -123,12 +123,12 @@ See below some NEAR-CLI commands' examples for your reference.
 near proposals
 ```
 
-This shows a list of proposals by validators indicating they would like to enter the validator set. For a proposal to be accepted it must meet the minimum seat price. See seat price [here](https://explorer.shardnet.near.org/nodes/validators)
+This shows a list of proposals by validators indicating they would like to enter the validator set. For a proposal to be accepted it must meet the minimum seat price. See seat price [here](https://explorer.shardnet.near.org/nodes/validators).
 
 ```
 near validators current
 ```
-This shows a list of validators in the validator set currently, the number of expected and produced blocks and chunks, as well as online rate. 
+This shows a list of validators in the validator set currently, the number of expected and produced blocks and chunks, as well as online rate.
 
 ```
 near validators next
@@ -172,7 +172,7 @@ And source the environment at the end:
 source $HOME/.cargo/env
 ```
 
-You are all set! Now it's time to `nearcore` project from GitHub:
+You are all set! Now it's time to clone `nearcore` repository from GitHub:
 
 ```
 git clone https://github.com/near/nearcore
@@ -220,10 +220,10 @@ Description=NEARd Daemon Service
 
 [Service]
 Type=simple
-User=<USER>
+User=<USER_UD>
 #Group=near
-WorkingDirectory=/home/<USER>/.near
-ExecStart=/home/<USER>/nearcore/target/release/neard run
+WorkingDirectory=/home/<USER_ID>/.near
+ExecStart=/home/<USER_ID>/nearcore/target/release/neard run
 Restart=on-failure
 RestartSec=30
 KillSignal=SIGINT
@@ -238,14 +238,14 @@ sudo systemctl daemon-reload
 sudo systemctl enable neard
 sudo systemctl start neard
 ```
-> Make sure to update USER accordingly
+> Make sure to update <USER_ID> accordingly
 
 To see logs for your node you should run:
 
 ```
 journalctl -n 100 -f -u neard
 ```
-See below an example of log messages
+See below an example of log messages.
 
 ![img](./images/log_1.png) 
 
@@ -276,7 +276,7 @@ You would need another configuration file **(validator_key.json)** so go ahead a
 ```
 near generate-key <pool_id>
 ```
-> Make sure to replace pool_id with the pool name of your choice
+> Feel free to replace pool_id with the pool name of your choice.
 
 Then copy the generated key file to the validator directory:
 
@@ -288,7 +288,7 @@ Make the following changes in validator_key.json file:
 * Set "xx.factory.shardnet.near" value (where xx is your pool name) to "account_id"
 * Change "private_key" to "secret_key"
 
-> Note: The account_id must match the staking pool contract name you will create further!
+> Note: The account_id must match the staking pool contract's name you will create further!
 
 File content should look like that at the end:
 ```
@@ -305,22 +305,22 @@ Now proceed with deploying staking pool and integrating it into a previously cre
 near call factory.shardnet.near create_staking_pool '{"staking_pool_id": "<pool id>", "owner_id": "<accountId>", "stake_public_key": "<public key>", "reward_fee_fraction": {"numerator": 5, "denominator": 100}, "code_hash":"DD428g9eqLL8fWUxv8QSpVFzyHi1Qd16P8ephYCTmMSZ"}' --accountId="<accountId>" --amount=30 --gas=300000000000000
 ```
 
-where "pool id" is the name of pool you created, "accountId" is your Near wallet name and public key can be found in **validator_key.json** file stored in **.near** directory.
+where "pool id" is the name of pool you created, "accountId" is your Near wallet name and "public key" can be found in **validator_key.json** file stored in **.near** directory.
 
-> Note: You should have at least 30 NEAR available on your Near wallet's balance
+> Note: You should have at least 30 NEAR available on your Near wallet's balance.
 
-You would wanna see something like that as a result
+You would wanna see something like that as a result.
 
 ![img](./images/pool_create_1.png)
 
-Congratulations! You finished a configuration of your staking pool so should be able to see it [the list of validators](https://explorer.shardnet.near.org/nodes/validators)
+Congratulations! You finished a configuration of your staking pool so should be able to see it [the list of validators](https://explorer.shardnet.near.org/nodes/validators).
 
-It should also appear in near proposals 
+It should also appear in near proposals. 
 
 ![img](./images/near_proposals_1.png)
 
 
-Last but not least you should top up the balance of your pool to meet the minimum seat price (check it [here](https://explorer.shardnet.near.org/nodes/validators))
+Last but not least you should top up the balance of your pool to meet the minimum seat price (check it [here](https://explorer.shardnet.near.org/nodes/validators)).
 
 ```
 near call <staking_pool_id> deposit_and_stake --amount <amount> --accountId <accountId> --gas=300000000000000
@@ -376,7 +376,7 @@ near view <staking_pool_id> get_account_unstaked_balance '{"account_id": "<accou
 ```
 near view <staking_pool_id> is_account_unstaked_balance_available '{"account_id": "<accountId>"}'
 ```
-> It should be unlocked for you to be able to withdraw funds
+> It should be unlocked for you to be able to withdraw funds.
 
 It's worth also mentioning that it's possible to pause staking:
 
@@ -394,7 +394,7 @@ near call <staking_pool_id> resume_staking '{}' --accountId <accountId>
 
 ## Set up regular ping
 
-In order to keep your validator active you should peridically ping staking pool conract. Ping issues a new proposal and updates the staking balances and should happen at least once at epoch.
+In order to stay in the validator set you should peridically ping staking pool conract. Ping issues a new proposal and updates the staking balances and should happen at least once at epoch.
 
 You can do this manually:
 
@@ -402,7 +402,7 @@ You can do this manually:
 near call <staking_pool_id> ping '{}' --accountId <accountId> --gas=300000000000000
 ```
 
-Or set up cron job to automate the process.
+Alternatively, you can set up cron job to automate the process.
 
 Create **ping.sh** file in **/home/<USER_ID>/scripts/** directory with the following content:
 
@@ -424,9 +424,9 @@ near validators next | grep $POOLID >> $LOGS/all.log
 EOF
 ```
 
-> Make sure to replace <USER_ID>, <YOUR_POOL_ID> and <YOUR_ACCOUNT_ID> accordingly
+> Make sure to replace <USER_ID>, <YOUR_POOL_ID> and <YOUR_ACCOUNT_ID> accordingly.
 
-And then create crontab job running that script:
+And then create crontab job which is going to be running that script:
 
 ```
 crontab -e
@@ -439,13 +439,13 @@ You can check if job was created by reviewing a user's crontab:
 crontab -l
 ```
 
-You can see log messages too:
+and see log messages too:
 
 ```
 cat home/<USER_ID>/logs/all.log
 ```
 
-As well as transactions in Recent Activity of Near wallet
+as well as transactions in Recent Activity of Near wallet.
 
 ![img](./images/ping_1.png)
 
