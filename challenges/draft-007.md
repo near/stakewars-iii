@@ -18,7 +18,7 @@ If you don’t have anything in mind to start with, please consider the follow e
 
 ### Deliverable
 
-- A chartio-like data dashboard, a report built with Jupyter Notebook, or a well-structured spreadsheet.
+- A chartio-like data dashboard, a report built with Jupyter Notebook, or a well-structured spreadsheet. You're encouraged to use whatever data visualization tool or machine learning algorithm that you love. 
 - A brief summary of what we could learn from those data and how NEAR can use those data to improve staking.
 
 ### Acceptance Criteria
