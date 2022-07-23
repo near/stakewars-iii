@@ -221,11 +221,15 @@ When it's done you should initialize working directory and get a couple of requi
 ```
 
 As result you will end up with **config.json**, **node_key.json**, and **genesis.json** in **.near** directory. 
-You should replace **config.json** though with the one having proper "boot_nodes" and "tracked_shards" values.
+You should replace **config.json** & **genesis.json** with another file in amazonaws.
 
 ```
 rm ~/.near/config.json
 wget -O ~/.near/config.json https://s3-us-west-1.amazonaws.com/build.nearprotocol.com/nearcore-deploy/shardnet/config.json
+```
+```
+rm ~/.near/genesis.json
+wget -O ~/.near/genesis.json https://s3-us-west-1.amazonaws.com/build.nearprotocol.com/nearcore-deploy/shardnet/genesis.json
 ```
 
 You can start NEAR node simply running the following command:
@@ -238,7 +242,10 @@ cd ~/nearcore
 However, in order to keep it running (and restart after a failure) you should set systemd script:
 
 ```
-sudo tee <<EOF >/dev/null /etc/systemd/system/neard.service
+sudo nano /etc/systemd/system/neard.service
+```
+
+```
 [Unit]
 Description=NEARd Daemon Service
 
@@ -256,22 +263,33 @@ KillMode=mixed
 
 [Install]
 WantedBy=multi-user.target
-EOF
-
-sudo systemctl daemon-reload 
-sudo systemctl enable neard
-sudo systemctl start neard
 ```
 > Make sure to update <USER_ID> accordingly
 
-To see logs for your node you should run:
+Next, you run the neard service
+```
+sudo systemctl enable neard
+sudo systemctl start neard
+```
 
+If you change the config, you should run this command below to restart the neard service
 ```
-journalctl -n 100 -f -u neard
+sudo systemctl reload neard
 ```
+
+To see logs, at first you should installe this plugin
+```
+sudo apt install ccze
+```
+
+after that, you run:
+```
+journalctl -n 100 -f -u neard | ccze -A
+```
+
 See below an example of log messages.
 
-![img](./images/log_1.png) 
+![img](./images/viewlog.PNG) 
 
 ---
 
@@ -285,27 +303,27 @@ near login
 
 If you have GUI on the server then a web browser is going to open up. Otherwise, just copy link from the ouput to your browser
 
-![img](./images/near_login_1.png) 
+![img](./images/near_login_1.PNG) 
 
 then grant access to NEAR-CLI in opened window
 
-![img](./images/grant_access_1.png) ![img](./images/grant_access_2.png)
+![img](./images/near_login_2.PNG) 
 
 and after pressing Enter in the console you should get something like that.
 
-![img](./images/near_login_2.png)
+![img](./images/near_login_3.PNG)
 
 You would need another configuration file **(validator_key.json)** so go ahead and create it!
 
 ```
 near generate-key <pool_id>
 ```
-> Feel free to replace pool_id with the pool name of your choice.
+> Feel free to replace pool_id with your wallet address. For example, my wallet is:nearlover.shardnet.near, so my pool id is nearlover.shardnet.near
 
 Then copy the generated key file to the validator directory:
 
 ```
-cp ~/.near-credentials/shardnet/pool_id.json ~/.near/validator_key.json
+cp ~/.near-credentials/shardnet/<pool_id>.json ~/.near/validator_key.json
 ```
 
 Make the following changes in validator_key.json file:
@@ -333,15 +351,14 @@ where "pool id" is the name of pool you created, "accountId" is your Near wallet
 
 > Note: You should have at least 30 NEAR available on your Near wallet's balance.
 
-You would wanna see something like that as a result.
-
-![img](./images/pool_create_1.png)
+>If you have already created the pool, you will see the error like this
+>![img](./images/pool_create_1.PNG)
 
 Congratulations! You finished a configuration of your staking pool so should be able to see it [the list of validators](https://explorer.shardnet.near.org/nodes/validators).
 
 It should also appear in near proposals. 
 
-![img](./images/near_proposals_1.png)
+![img](./images/near_proposals_1.PNG)
 
 
 Last but not least you should top up the balance of your pool to meet the minimum seat price (check it [here](https://explorer.shardnet.near.org/nodes/validators)).
@@ -471,7 +488,7 @@ cat home/<USER_ID>/logs/all.log
 
 as well as transactions in Recent Activity of Near wallet.
 
-![img](./images/ping_1.png)
+![img](./images/ping_contract.PNG)
 
 ---
 
