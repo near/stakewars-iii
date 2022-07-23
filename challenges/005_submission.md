@@ -61,7 +61,19 @@ You create new instance by clicking to "CREATE INSTANCE"
 Choose your configuration that fitting hardware requirement
 ![img](./images/create_instance_2.PNG)
 
-Once operating system is installed make sure the server is good for StakeWars and run this command in console: 
+Check the estimated price
+
+![img](./images/create_instance_3.PNG)
+
+Once operating system is installed you can view in in the VM list.
+
+![img](./images/create_instance_4.PNG)
+
+Open SSH terminal and ready for the main steps.
+
+![img](./images/terminal.PNG)
+
+make sure the server is good for StakeWars and run this command in console: 
 
 ```
 lscpu | grep -P '(?=.*avx )(?=.*sse4.2 )(?=.*cx16 )(?=.*popcnt )' > /dev/null \
@@ -232,7 +244,7 @@ Description=NEARd Daemon Service
 
 [Service]
 Type=simple
-User=<USER_UD>
+User=<USER_ID>
 #Group=near
 WorkingDirectory=/home/<USER_ID>/.near
 ExecStart=/home/<USER_ID>/nearcore/target/release/neard run
