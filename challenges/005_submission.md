@@ -3,26 +3,26 @@
 * Updated on: 2022-07-23
 * Submitted by: nearlover.factory.shardnet.near
 
-# Setup a running validator node for shardnet on Webtropia cloud provider 
+# Setup a running validator node for shardnet on Google Cloud provider 
 
 
 ## Create a wallet
 
-Visit https://wallet.shardnet.near.org/ and click “Create account” 
+Visit https://wallet.shardnet.near.org/ and click “Create account”, then reserve your Account ID. 
+※If you have existing account, you can skip this step.
 
-![img](./images/near_wallet_1.png) 
+![img](./images/create_wallet.PNG) 
 
-then reserve your Account ID
+and choose a security method among available options (Seed Phrase, Ledger, etc). 
+I will choose Secure Passphrase for my wallet because it is the most recommended method.
 
-![img](./images/near_wallet_2.png)
-
-and choose a security method among available options (Seed Phrase, Ledger, etc).
-
-![img](./images/near_wallet_3.png)
+![img](./images/create_wallet2.PNG)
 
 > IMPORTANT! In case of choosing Seed Phrase make sure to write it down and keep in safe place!
 
 After you are done you can log in to the wallet with the chosen method!
+
+![img](./images/create_wallet3.PNG)
 
 ---
 
@@ -37,17 +37,29 @@ Please see the hardware requirement below:
 | RAM            | 8GB DDR4                                                              |
 | Storage        | 500GB SSD                                                             |
 
-So among those options available on https://www.webtropia.com/en/cloud-vps.html you can pick Cloud VPS S.
+So, I will instruct you to create a VPS with similar hardware requirement above.
 
-![img](./images/webtropia_vps_options_1.png) ![img](./images/webtropia_vps_options_2.png) 
+First, go to https://cloud.google.com/ and login with your google account.
+After you login you will see this similar screen below.
 
-> This VPS has only 200GB SSD but you can always expand storage in [Webtropia's User Portal](https://zkm.webtropia.com/s/vserver/overview).
+![img](./images/google_cloud_1.PNG)
 
-You can also choose from several operating system options:
+Click "Get started for free" to get 300$ and 90 days free of use if you didn't use google cloud service before
 
-![img](./images/webtropia_vps_options_3.png)
+![img](./images/google_cloud_2.PNG)
 
-> I'd recommend Ubuntu 18.04/20.04 or Debian 10/11 distributions.
+> You will be notified to pay fee when the trial is finished. If you don't upgrade your account, you will not be able to use anymore.
+
+After register free trial account, you click to the 三 icon on the top left page --> Compute Engine --> VM instances to access to VM list page and we will create new VPS there.
+
+![img](./images/google_cloud_3.PNG)
+
+You create new instance by clicking to "CREATE INSTANCE"
+
+![img](./images/create_instance_1.PNG)
+
+Choose your configuration that fitting hardware requirement
+![img](./images/create_instance_2.PNG)
 
 Once operating system is installed make sure the server is good for StakeWars and run this command in console: 
 
