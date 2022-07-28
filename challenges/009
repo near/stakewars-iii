@@ -1,0 +1,58 @@
+# Stake Wars: Episode III. Challenge 009
+* Published on: 2022-07-28
+* Submitted by: Open Shards Alliance
+* Rewards: 15 Unlocked NEAR Points
+
+This challenge has to objectives:
+* Monitor uptime above 70% on ShardNet
+* Open the RPC port 3030 for analytics / reporting
+
+🎗️Tip: On MainNet, Uptime has to be greater than 95%, or you will be kicked for up to 3 epochs losing rewards and possibly delegators.
+
+💡Did you know? If a validator issues a ping to join the network before being fully synced it is considered an attack on the network?
+
+## Steps
+
+We have launched a new validator scoreboard for ShardNet where you can monitor your uptime and metrics of your validator: [ShardNet Uptime Leaderboard](https://openshards.io/shardnet-uptime-scoreboard/)
+
+### Objective 1 - Monitor uptime
+
+Check your current uptime and manage it to above 70% on ShardNet
+Fix issues with producing chunks. See the [troubleshooting guide] (https://github.com/near/stakewars-iii/blob/main/challenges/troubleshooting.md)
+Implement monitoring scripts 
+
+### Objective 2 - Open Port 3030 for Diagnostic reporting
+
+Check to see if PORT 3030 is open
+```
+sudo iptables -L | grep 3030
+```
+Open the port if not open
+```
+sudo iptables -A INPUT -p tcp --dport 3030 -j ACCEPT
+```
+Save the config for server restarts
+```
+sudo dpkg-reconfigure iptables-persistent
+```
+OR -
+```
+iptables-save > /etc/iptables/rules.v4
+ip6tables-save > /etc/iptables/rules.v6
+```
+
+## Acceptance criteria:
+
+* Validator reporting above 70%
+* Port can be accessed publicly `http://<IP Address>:3030`
+
+## Challenge submission
+
+* Challenge URL: The link to your port 3030 port
+* Challenge image: Screenshot of uptime from Leaderboard
+
+[Submit the form](https://docs.google.com/forms/d/e/1FAIpQLScp9JEtpk1Fe2P9XMaS9Gl6kl9gcGVEp3A5vPdEgxkHx3ABjg/viewform) with your distribution transactions.
+
+## Update log
+
+Updated 2022-07-28: Creation
