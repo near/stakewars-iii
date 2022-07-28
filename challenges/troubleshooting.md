@@ -21,7 +21,7 @@ near view <POOL_ID> get_staking_key '{}'
 
 cat ~/.near/validator_key.json | grep public_key
 ```
-🗒️  ** Both keys must match **. If they DO NOT update the staking pool key ❗ 
+🗒️  **Both keys must match** . If they DO NOT update the staking pool key ❗ 
 
 Update staking pool key:
 ```
