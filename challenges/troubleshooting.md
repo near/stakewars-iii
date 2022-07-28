@@ -84,6 +84,13 @@ Just create a new account and delegate enough tokens.
 near call <staking_pool_id> deposit_and_stake --amount <amount> --accountId <accountId> --gas=300000000000000
 
 ```
+
+## My log show: WARN telemetry: Failed to send telemetry data err=Connect(Timeout) ##
+
+This is related to RPC issue, don't worry about it.
+You will maybe have some timeout, you can use your localnode by adding ```--nodeUrl 127.0.0.1:3030```
+
+
 ## A hardfork is announced, what should I do? (For shardnet on July 2022)
 
 On July 27th a third hardfork was done during stake wars to Shardnet. This for upgrading core code and keep nodes with higher stability.
