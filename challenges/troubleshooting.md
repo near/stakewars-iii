@@ -62,10 +62,20 @@ near validators next
 ## I cannot run neard, it shows ‘Failed to open the database’
 This is common because there is a current service using the files. Probably another neard service.
 
-Try running the top command and verify there is no neard service already running.
+Try running the ***top*** command on the terminal and verify there is no *neard* service already running. 
+
+```
+top
+```
+
+In case it is already running you can verify it status using the following:
+
+```
+journalctl -n 100 -f -u neard | ccze -A
+```
 
 
-My staking pool lost the tokens I delegate to it
+## My staking pool lost the tokens I delegate to it
 In case you delegated tokens to your staking pools before one the hard forks made to the shardnet network, your account could be deleted by the fork.
 
 Just create a new account and delegate enough tokens.
