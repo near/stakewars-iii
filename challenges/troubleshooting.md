@@ -74,6 +74,32 @@ Just create a new account and delegate enough tokens.
 near call <staking_pool_id> deposit_and_stake --amount <amount> --accountId <accountId> --gas=300000000000000
 
 ```
+## A hardfork is announced, what should I do? (For shardnet on July 2022)
+
+On July 27th a third hardfork was done during stake wars to Shardnet. This for upgrading core code and keep nodes with higher stability.
+
+Run the following to upgrade:
+
+```
+sudo systemctl stop neard
+rm ~/.near/data/*
+
+cd ~/nearcore
+git fetch
+git checkout 0d7f272afabc00f4a076b1c89a70ffc62466efe9
+cargo build -p neard --release --features shardnet
+
+cd ~/.near
+rm genesis.json
+wget https://s3-us-west-1.amazonaws.com/build.nearprotocol.com/nearcore-deploy/shardnet/genesis.json
+
+rm ~/.near/config.json
+wget -O ~/.near/config.json https://s3-us-west-1.amazonaws.com/build.nearprotocol.com/nearcore-deploy/shardnet/config.json
+
+sudo systemctl start neard && journalctl -n 100 -f -u neard | ccze -A
+```
+
+Also, if you owner account or staking pool doesn't appear is probably that it was removed during hard fork. Make those again.
 
 ## ***Common Node Errors and Solutions*** by Open Shards Alliance
 In case none of the above worked, you can use this guide. In this document you will find a general rules on how to solve problems related to a node validator running on NEAR Protocol. 
