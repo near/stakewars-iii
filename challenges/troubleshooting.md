@@ -38,7 +38,7 @@ cat ~/.near/shardnet/validator_key.json
 account_id must be like : xx.factory.shardnet.near
 If not update it, save and stop/start neard
 
-## Explorer is not showing my transactions/not updating
+## Explorer is not showing my transactions/not updating - not showing my account / pool
 In case that explorer.shardnet.near.org is not working, review the RPC status on the corner. 
 
 OK (Green indicator)
