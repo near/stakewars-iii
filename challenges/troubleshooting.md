@@ -1,7 +1,7 @@
 # Troubleshooting guide for Stake Wars III
 * Published on: 2022-07-25
-* Updated on: 2022-07-25
-* 
+* Updated on: 2022-07-29
+ 
 This guide is made to solve the most common questions related to a node not working as expected. Feel free to make your own contributions or suggestions on what this guide should include.
 
 ## My node is not producing chunks/blocks
@@ -89,6 +89,16 @@ near call <staking_pool_id> deposit_and_stake --amount <amount> --accountId <acc
 
 This is related to RPC issue, don't worry about it.
 You will maybe have some timeout, you can use your localnode by adding ```--nodeUrl 127.0.0.1:3030```
+
+## I want to move my node to other VPS/Cloud provider. 
+
+Do regular steps to mount a node on the new VPS/Cloud and take in consideration this:
+
+1. Copy over node_key.json
+2. Copy over validator_key.json
+4. Stop the node primary node
+3. Stop the secondary node
+4. Restart the secondary node
 
 
 ## A hardfork is announced, what should I do? (For shardnet on July 2022)
