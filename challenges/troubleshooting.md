@@ -128,6 +128,28 @@ sudo systemctl start neard && journalctl -n 100 -f -u neard | ccze -A
 
 Also, if you owner account or staking pool doesn't appear is probably that it was removed during hard fork. Make those again.
 
+
+## $Variables not set up correctly
+
+In case of problems with command that is using variables, e.g. "--accountId $ACCOUNTID.shardnet.near", doublecheck they have expected content by displaying them, for example:
+
+```
+echo $ACCOUNTID
+```
+
+We usually set variables using command "export" like this famous one:
+```
+export NEAR_ENV=shardnet
+```
+
+Exporting variable means it will be available in all "child" processes (otherwise if e.g. script opens new bash shell instance, the bash would be "clean"), that's why something strange like this makes sense:
+```
+export POOL=$POOL
+```
+
+Notice the difference in "$" character present when we are reading content of the variable, and not present when setting it.
+
+
 ## ***Common Node Errors and Solutions*** by Open Shards Alliance
 In case none of the above worked, you can use this guide. In this document you will find a general rules on how to solve problems related to a node validator running on NEAR Protocol. 
 
