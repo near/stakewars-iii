@@ -8,4 +8,4 @@ Hope the force will be with you !
 https://github.com/near/stakewars-iii/blob/main/challenges/001.md
 
 
-For Support: https://discord.gg/7TercRzRgA
+For Support and important announcements: https://discord.gg/7TercRzRgA
