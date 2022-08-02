@@ -32,7 +32,7 @@ If match:
 Check validator_key.json
 
 ```
-cat ~/.near/shardnet/validator_key.json
+cat ~/.near/validator_key.json
 ```
 
 account_id must be like : xx.factory.shardnet.near
