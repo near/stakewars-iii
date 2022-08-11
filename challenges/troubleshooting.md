@@ -95,10 +95,11 @@ You will maybe have some timeout, you can use your localnode by adding ```--node
 Do regular steps to mount a node on the new VPS/Cloud and take in consideration this:
 
 1. Sync your NEW node without validator key
-2. Copy over node_key.json from OLD node to NEW node
-3. Copy over validator_key.json from OLD node to NEW node
-4. Stop the OLD node
-5. Start the NEW node
+2. Stop the NEW node
+3. Copy over node_key.json from OLD node to NEW node
+4. Copy over validator_key.json from OLD node to NEW node
+5. Stop the OLD node
+6. Start the NEW node
 
 ## A hardfork is announced, what should I do? (For shardnet on July 2022)
 
