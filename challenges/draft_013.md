@@ -10,8 +10,8 @@
 In this challenge, participants will learn how to update their node, migrate keys, and set up a **BACKUP** node. 
 
 Please note that this challenge includes multiple parts: 
-- **Best Practises**: is an informational section that outlines the optimal way of updating a validator node (no points) 
-- **Backup node**: in this section participants will learn how to migrate validator keys. Only this part of the challenge will be evaluated.  (25 UNP & 10 DNP)  
+- **Best Practices**: is an informational section that outlines the optimal way of updating a validator node (no points) 
+- **Backup node**: in this section, participants will learn how to migrate validator keys. Only this part of the challenge will be evaluated.  (25 UNP & 10 DNP)  
 
 ### Acceptance Criteria
 
@@ -20,18 +20,18 @@ Please note that this challenge includes multiple parts:
 
 ### Challenge submission
 
-For submission please fill out the [form](https://docs.google.com/forms/d/e/1FAIpQLSfZV6_SUpdAMlOOjpwQSVa0xUcvCjO5iiNG3k9KrGDvCEEw3w/viewform?usp=sf_link)  
+For submission, please fill out the [form](https://docs.google.com/forms/d/e/1FAIpQLSfZV6_SUpdAMlOOjpwQSVa0xUcvCjO5iiNG3k9KrGDvCEEw3w/viewform?usp=sf_link)  
 
-To submit your results make sure to include the following: 
+To submit your results, make sure to include the following: 
 
 Please include a screenshot of logs that shows that the `public_key` has been changed on the main & backup node and timestamps from the validator and backup nodes. Make sure to include the `peer_id` and that it matches `public_key` in `/<WORK_DIR>/mainnet/node_key.json` & `../<VALIDATOR_KEYS>/node_key.json`
 
 ## Best Practices
 
-**Before updating your node make sure that you have checked**
+**Before updating your node, make sure that you have checked**
 
 1. An official announcement for the update.
-2. Release Notes on Github.  
+2. Release Notes on GitHub.  
 Be aware of *DB migration or other breaking changes*
 3. Validator chats.  
 Review *how many validators have been updated?  
@@ -45,7 +45,7 @@ Were there any noticeable problems?*
 
 ### Update binary
 
-- Create a new directory e.g `sources` & *clone* or *update* `nearcore` project from GitHub
+- Create a new directory, e.g `sources` & *clone* or *update* `nearcore` project from GitHub
 
 ```bash
 cd sources
@@ -54,7 +54,7 @@ cd nearcore
 git fetch origin --tags
 ```
 
-- Checkout to the branch you need. The latest unstable release is recommended if you are running on the **testnet** and the latest stable version is recommended if you are running on the **mainnet**. Please check the [releases page on GitHub](https://github.com/near/nearcore/releases).
+- Checkout to the branch you need. The latest unstable release is recommended if you are running on the **testnet** or **shardnet** and the latest stable version is recommended if you are running on the **mainnet**. Please check the [releases page on GitHub](https://github.com/near/nearcore/releases).
 
 ```bash
 git checkout <version>
@@ -71,7 +71,7 @@ make release
 ```
 
 
-⚠️ **Don’t forget to check version and hash of the binary, it should be the same as displayed on [releases page](https://github.com/near/nearcore/releases)**
+⚠️ **Don’t forget to check the version and hash of the binary, it should be the same as displayed on [releases page](https://github.com/near/nearcore/releases)**
 
 
 - Replace binary in your work directory
@@ -90,7 +90,7 @@ cp ./target/release/neard <WORK_DIR>/bin/
 
 ## Backup node
 
-In case of missed blocks or chunks the validator can be removed from the active validation set in the next auction. If you want to secure your validator NEAR node from a high downtime you can deploy a **backup** server with the preconfigured NEAR node. Having two provisioned nodes allows you to quickly switch from one server to another by migrating your validator keys, so you can continue producing blocks with minimal downtime. If the nearcore release has long database migration, or you must maintain/scale the server, we also recommend migrating your validator keys to the backup node. 
+In case of missed blocks or chunks, the validator can be removed from the active validation set in the next auction. If you want to secure your validator NEAR node from a high downtime, you can deploy a **backup** server with the preconfigured NEAR node. Having two provisioned nodes allows you to quickly switch from one server to another by migrating your validator keys, so you can continue producing blocks with minimal downtime. If the nearcore release has long database migration, or you must maintain/scale the server, we also recommend migrating your validator keys to the backup node. 
 
 Always analyze your node activities and be ready to determine a problem and move the *main validator* keys to the **backup** node. 
 
@@ -164,14 +164,14 @@ Feb 16 19:12:42.164  INFO stats: #59664178 Downloading blocks 100.00% (6)   4/3/
 
 `peer_id` must be equal to `public_key` in `/<WORK_DIR>/mainnet/node_key.json` & `../<VALIDATOR_KEYS>/node_key.json`
 
-You can also see you are a validator when in the logs of the **BACKUP** node you see "Validator |" 
+To make sure that your node is validating, in the logs of the **BACKUP** node you should see "Validator |" 
 
 ```bash
 2022-07-29T13:37:03.984160Z  INFO stats: #70892058 F6jTU9iyXRJ6jiQq8XUP6ENpzvHZ8FfYJpuS8w9zHb82 Validator | 100 validators 35 peers ⬇ 1.53 MB/s ⬆ 2.24 MB/s 0.80 bps 22.2 Tgas/s CPU: 39%, Mem: 6.91 GB
 2022-07-29T13:37:13.984741Z  INFO stats: #70892066 2HwdtnRkosQ9mLkmKZpa3X28NNtzajfvct2YBBg63QW2 Validator | 100 validators 35 peers ⬇ 1.56 MB/s ⬆ 2.21 MB/s 0.80 bps 66.8 Tgas/s CPU: 38%, Mem: 6.91 GB
 ```
 
-Simple logs
+Normal logs
 
 ```bash
 2022-07-29T13:44:20.905273Z  INFO stats: #70892419 8uHiGM2CuibYAyA1Sry15M9vcyyXrZD8CG3nf8nvetdU 100 validators 36 peers ⬇ 1.35 MB/s ⬆ 1.30 MB/s 0.80 bps 25.8 Tgas/s CPU: 42%, Mem: 6.01 GB
