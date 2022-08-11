@@ -11,14 +11,14 @@ In this challenge, participants will learn how to update their node, migrate key
 
 Please note that this challenge includes multiple parts: 
 - **Best Practices**: is an informational section that outlines the optimal way of updating a validator node (no points) 
-- **Backup node**: in this section, participants will learn how to migrate validator keys. Only this part of the challenge will be evaluated.  (25 UNP & 10 DNP)  
+- **Task**: in this section, participants will learn how to migrate validator keys. Only this part of the challenge will be evaluated.  (25 UNP & 10 DNP)  
 
-### Acceptance Criteria
+## Acceptance Criteria
 
 - Run a backup node
 - Successfully migrate validator keys from the **MAIN** node to the **BACKUP** node
 
-### Challenge submission
+## Challenge submission
 
 For submission, please fill out the [form](https://docs.google.com/forms/d/e/1FAIpQLSfZV6_SUpdAMlOOjpwQSVa0xUcvCjO5iiNG3k9KrGDvCEEw3w/viewform?usp=sf_link)  
 
@@ -84,11 +84,11 @@ cp ./target/release/neard <WORK_DIR>/bin/
 
 **Helpful links:** [https://near-nodes.io/validator/validator-bootcamp](https://near-nodes.io/validator/validator-bootcamp)
 
-### Task
+## Task
 
 *Try to use different folders for binaries & sources for version check*
 
-## Backup node
+### Backup node
 
 In case of missed blocks or chunks, the validator can be removed from the active validation set in the next auction. If you want to secure your validator NEAR node from a high downtime, you can deploy a **backup** server with the preconfigured NEAR node. Having two provisioned nodes allows you to quickly switch from one server to another by migrating your validator keys, so you can continue producing blocks with minimal downtime. If the nearcore release has long database migration, or you must maintain/scale the server, we also recommend migrating your validator keys to the backup node. 
 
