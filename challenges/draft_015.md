@@ -22,7 +22,7 @@ For support join [kuutamo-chat on Matrix](https://matrix.to/#/#kuutamo-chat:kuut
 ## Deliverables
 
  - Blog for localnet deployment
- - Blog for shardnet deployment. On each kuutamo node, once your system is operational, run the commands below and include in blog.
+ - Blog for shardnet deployment. On each kuutamo node, once your system is operational, run the commands below and include screenshots in blog.
 ```console
 $ nixos-version
 $ journalctl -u kuutamod.service | grep 'state changed'
