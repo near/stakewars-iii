@@ -1,6 +1,6 @@
 
 # Stake Wars: Episode III. Community track 001
-### Status: **DRAFT**
+
 * Published on: 2022-08-17
 * Updated on: 2022-08-17
 * Submitted by: Meta Pool 
@@ -9,10 +9,10 @@
   
 ## **IMPORTANT NOTES:**
 
-* This challenge is only for Startups with residence in Latin America, as requested by Amazon Web Services.
-* This is part of a pilot project, before taking a possible worldwide coverage for supporting NEAR Protocol’s startups.
+* **This challenge is only for Startups with residence in Latin America**, as requested by Amazon Web Services.
+* **This is part of a pilot project**, before taking a possible worldwide coverage for supporting NEAR Protocol’s startups.
 
-Get your chunk-producer node online, support the Latin American projects and communities of NEAR,and win one of the 20 vouchers of $5000 in credits for your Amazon Web Services account for a period of 2 year to run your node validator.
+Get your chunk-producer node online, support the Latin American projects and communities of NEAR, and win one of the 20 vouchers of $5000 in credits for your Amazon Web Services account for a period of 2 year to run your node validator.
 
 Complete as many tasks indicated in this document and participate
 
@@ -31,7 +31,7 @@ Complete as many tasks indicated in this document and participate
 |11|Join NEAR P2P DEx Telegram Group.|5|
 |12|Complete a buying/selling transaction on NEAR P2P DEx|15|
 |13|Follow Esccrow Dapp (@esccrow) on twitter.|5|
-|14|Complete your first NFT sell on esccrow.finance|5|
+|14|Complete your first NFT sell on esccrow.finance|15|
 |15|Follow Open Web Academy (@owa_academy) on twitter.|5|
 |16|Join Open Web Academy Discord Server.|5|
 |17|Attend 1 Office Hours on Open Web Academy|15|
@@ -46,12 +46,12 @@ Complete as many tasks indicated in this document and participate
 |27|Follow NEAR Mexico (@NearMexico) on twitter.|5|
 |28|Join NEAR Mexico Discord Server.|5|
 ||More to be announced coming soon ;)|NA|
-||Total|185|
+||Total|215|
 
 ## Acceptance criteria:
 
 * Be among the 200 winning chunk-producer nodes at the end of stake wars
-* Be in the top 20 of the leaderboard.
+* Be in the top 20 of the community track 001 leaderboard.
 * You should submit enough evidence to verify that you completed the tasks.
 
 ## Submission form
