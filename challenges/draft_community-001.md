@@ -55,3 +55,5 @@ Complete as many tasks indicated in this document and participate
 * You should submit enough evidence to verify that you completed the tasks.
 
 ## Submission form
+
+Here is the submission form, you should include an screenshot as proof of completion for every task: [https://forms.gle/Kpk7SAGLf1MSwkgH9](https://forms.gle/Kpk7SAGLf1MSwkgH9)
