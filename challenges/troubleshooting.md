@@ -101,7 +101,7 @@ Do regular steps to mount a node on the new VPS/Cloud and take in consideration 
 5. Stop the OLD node
 6. Start the NEW node
 
-## A hardfork is announced, what should I do? (For shardnet on July 2022)
+## A hardfork is announced, what should I do?
 
 On July 27th a third hardfork was done during stake wars to Shardnet. This for upgrading core code and keep nodes with higher stability.
 
@@ -142,6 +142,23 @@ echo 'export NEAR_ENV=shardnet' >> ~/.bashrc
 echo 'export NEAR_ENV=shardnet' >> ~/.bash_profile
 source $HOME/.bash_profile
 ```
+
+## Issues with block/chuck production
+Hardware and Internet meet min specs? 
+sudo apt install speedtest-cli && speedtest-cli
+https://www.vpsbenchmarks.com/
+
+Out of RAM? Set a 16GB Swap file.
+```sudo swapoff /swapfile
+sudo rm /swapfile
+sudo fallocate -l 16G /swapfile
+sudo chmod 600 /swapfile
+sudo mkswap /swapfile
+sudo echo "/swapfile   none    swap    sw    0   0" >> /etc/fstab
+sudo swapon /swapfile```
+
+## Uptime calculation
+"% chunks online" = (CHUNKS PRODUCED / CHUNKS EXPECTED) * (VALIDATED EPOCHS / TOTAL EPOCHS)
 
 ## ***Common Node Errors and Solutions*** by Open Shards Alliance
 In case none of the above worked, you can use this guide. In this document you will find a general rules on how to solve problems related to a node validator running on NEAR Protocol. 
