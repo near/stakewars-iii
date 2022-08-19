@@ -2,7 +2,7 @@
 
 - Published on: 2022-08-17
 - Submitted by: Everstake
-- Rewards: 25 DNP
+- Rewards: 20 DNP
 
 ## Description
 
