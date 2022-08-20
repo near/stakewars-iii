@@ -149,13 +149,15 @@ sudo apt install speedtest-cli && speedtest-cli
 https://www.vpsbenchmarks.com/
 
 Out of RAM? Set a 16GB Swap file.
-```sudo swapoff /swapfile
+```
+sudo swapoff /swapfile
 sudo rm /swapfile
 sudo fallocate -l 16G /swapfile
 sudo chmod 600 /swapfile
 sudo mkswap /swapfile
 sudo echo "/swapfile   none    swap    sw    0   0" >> /etc/fstab
-sudo swapon /swapfile```
+sudo swapon /swapfile
+```
 
 ## Uptime calculation
 "% chunks online" = (CHUNKS PRODUCED / CHUNKS EXPECTED) * (VALIDATED EPOCHS / TOTAL EPOCHS)
