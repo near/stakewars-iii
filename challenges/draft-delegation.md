@@ -7,7 +7,7 @@
 **NEW VALIDATORS ONLY**
 Receive initial delegation for a new validator by creating a PR of this challenge wit your POOL ID
 
-POOL_ID: <POOLID>.factory.shardnet.near
+POOL_ID: testovich.factory.shardnet.near
 
 ## Challenge submission
 
