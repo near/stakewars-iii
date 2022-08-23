@@ -6,15 +6,15 @@
 * Submitted by: Meta Pool supported by Kuutamo
 * Rewards: 10 Delegated NEAR Points (DNP)
   
-Setup a kuutamo High Availability (HA) NEAR Validator running on `shardnet` and `testnet`
+Setup a kuutamo High Availability (HA) NEAR Validator running on `localnet` and `testnet`
 
 The kuutamo (HA) NEAR Validator node distribution combines a Linux operating system (NixOS) preconfigured for security and performance for this use case, kuutamod, consuld and neard.
 
 kuutamod is a distributed supervisor for neard that implements failover. To avoid having two active validators running simultaneously, kuutamod uses consul by acquiring a distributed lock.
 
-## Kuutamod support:
+## kuutamod support:
 
-Kuutamod team is available for solving doubts about setting up Kuutamod.
+kuutamod team is available for solving doubts about setting up kuutamod.
 
 For support join [kuutamo-chat on Matrix.](https://matrix.to/#/#kuutamo-chat:kuutamo.chat) 
 
@@ -28,7 +28,7 @@ For support join [kuutamo-chat on Matrix.](https://matrix.to/#/#kuutamo-chat:kuu
 ## Deliverables
 
  - Blog for localnet deployment
- - Blog for shardnet deployment. On each kuutamo node, once your system is operational, run the commands below and include screenshots in blog.
+ - Blog for testnet deployment. On each kuutamo node, once your system is operational, run the commands below and include screenshots in blog.
 ```console
 $ nixos-version
 $ journalctl -u kuutamod.service | grep 'state changed'
