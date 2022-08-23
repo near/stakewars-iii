@@ -22,7 +22,6 @@ For support join [kuutamo-chat on Matrix.](https://matrix.to/#/#kuutamo-chat:kuu
 
  1. Deploy kuutamod on a localnet following [this guide](https://github.com/kuutamolabs/kuutamod/blob/main/docs/run-localnet.md). Write a blog post documenting your experience.
  2. Deploy a HA pool using kuutamo with a name appended with `_kuutamo` on testnet (i.e. `alanpool_kuutamo.pool.f863973.m0`). Write a blog post documenting your experience. This part of the challenge requires machines with NixOS 22.05. There is a quickstart AWS walkthrough [here](https://github.com/kuutamolabs/kuutamod/blob/main/docs/testnet-on-aws-lab.md) which starts by explaining how to get the NixOS AMI image, or you can try setting up NixOS youself using [this install guide](https://nixos.org/manual/nixos/stable/index.html#ch-installation) on your own machines and following [this doc](https://github.com/kuutamolabs/kuutamod/blob/main/docs/run-main-test-shard.md).
- _Note: There is shardnet version for kuutamod. You can try setting up shardnet for task 2 following [this guide](https://github.com/kuutamolabs/kuutamod/blob/main/docs/run-main-test-shard.md) . _
 
 
 
