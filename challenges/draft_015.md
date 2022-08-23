@@ -25,7 +25,7 @@ For support join [kuutamo-chat on Matrix.](https://matrix.to/#/#kuutamo-chat:kuu
 
 
 
-## Deliverables
+## Deliverables 
 
  - Blog for localnet deployment
  - Blog for testnet deployment. On each kuutamo node, once your system is operational, run the commands below and include screenshots in blog.
@@ -36,7 +36,10 @@ $ systemctl status kuutamod
 ```
 
 ## Submission Form
-TBD
+
+Include link to your deliverables
+
+[Submit the form](https://docs.google.com/forms/d/e/1FAIpQLScp9JEtpk1Fe2P9XMaS9Gl6kl9gcGVEp3A5vPdEgxkHx3ABjg/viewform) with your distribution transactions.
 
 ## Disclaimer
 
