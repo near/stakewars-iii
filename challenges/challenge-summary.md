@@ -10,7 +10,7 @@ This file contains an overview of the published and draft challenges for Stake W
 | [006](https://github.com/near/stakewars-iii/blob/main/challenges/006.md) | Published | 2022-07-19   | 2022-09-07 | Meta Pool | Cron task for ping                                                                | 5 UNP                                                     | Core     | Shardnet       |
 | [007](https://github.com/near/stakewars-iii/blob/main/challenges/007.md) | Published | 2022-07-22   | 2022-09-07 | LiNEAR    | Data Science for Staking                                                          | 30 DNP<br>50 UNP<br>200USD in $LiNEAR for best submission | Optional | Shardnet       |
 | [008](https://github.com/near/stakewars-iii/blob/main/challenges/008.md) | Published | 2022-07-26   | 2022-09-07 | Meta Pool | Split revenue for staking rewards                                                 | 30 DNP<br>50 UNP                                          | Optional | Shardnet       |
-| [009](https://github.com/near/stakewars-iii/blob/main/challenges/009.md) | Published | 2022-07-28   | 2022-09-07 | OSA       | Challenge for shardnet uptime >70% && open the debug port                         | 15 UNP                                                    | Core     | Shardnet       |
+| [010](https://github.com/near/stakewars-iii/blob/main/challenges/010.md) | Published | 2022-08-10   | 2022-09-07 | OSA       | Monitor uptime                          | ---                                                    | Core     | Shardnet       |
 
 Summary for the point system:
 * Delegated NEAR Points (DNP): at the end of the Stake Wars program, each Delegated NEAR Point (DNP) will be translated into 500 NEAR tokens delegated to your mainnet account for 1 year.
