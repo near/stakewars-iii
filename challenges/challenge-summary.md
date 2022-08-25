@@ -14,8 +14,8 @@ This file contains an overview of the published and draft challenges for Stake W
 | [010](https://github.com/near/stakewars-iii/blob/main/challenges/010.md) | Published | 2022-08-10   | 2022-09-07 | OSA       | Token Delegation                          | ---                                                    | Core     | Shardnet       |
 | [011](https://github.com/near/stakewars-iii/blob/main/challenges/011.md) | Published | 2022-07-29   | 2022-09-07 | LiNEAR       | Staking Farm 2.0                       | 30 DNP<br>50 UNP<br>200USD in $LiNEAR for best submission            | optional     | Shardnet       |
 | 012 | Pending | ----  | --- | OSA      | -----                      | -----                 | ----     | Shardnet       |
-| [013](https://github.com/near/stakewars-iii/blob/main/challenges/013.md) | Published | 2022-08-11   | 2022-09-07 | Everstake      | Setup Backup Node                       | 25 UNP<br>10 DNP                 | optional     | Shardnet       |
-| 014 | Pending | ----  | --- | Everstake      | -----                      | -----                 | ----     | Shardnet       |
+| [013](https://github.com/near/stakewars-iii/blob/main/challenges/013.md) | Published | 2022-08-11   | 2022-09-07 | Everstake      | Setup Backup Node                       | 25 UNP<br>10 DNP                 | Optional     | Shardnet       |
+| [014](https://github.com/near/stakewars-iii/blob/main/challenges/014.md)| Published | 2022-08-17  | 2022-09-07 | Everstake      | Auto-backup node script                      | 15 DNP                 | Optional     | Shardnet       |
 | [015](https://github.com/near/stakewars-iii/blob/main/challenges/015.md) | Published | 2022-08-23   | 2022-09-07 | Meta Pool      | Kuutamo Service                       | 10 DNP                                                   | optional     | Shardnet       |
 | 016 | Pending | ----  | --- | Meta Pool      | -----                      | -----                 | ----     | Shardnet       |
 
