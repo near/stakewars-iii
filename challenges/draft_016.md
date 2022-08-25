@@ -11,15 +11,8 @@ Connect a node validator for sending notifications through [Notifi](https://noti
 
 Notifi Network is a notifications provider for web3. In this challenge, you will test yourself on using the Notifi API to communicate when your staking is going lower than seat price.
 
-
-## kuutamod support:
-
-kuutamod team is available for solving doubts about setting up kuutamod.
-
-For support join [kuutamo-chat on Matrix.](https://matrix.to/#/#kuutamo-chat:kuutamo.chat) 
-
 ## Steps to complete:
-* In #integration-requests channel, ask to integrate a new validator on Near for Stake Wars! 
+* In [#integration-requests](https://discord.com/invite/nAqR3mk3rv) channel, ask to integrate a new validator on Near for Stake Wars! 
 * A support ticket will be created with you in it.
 * You'll be asked for your valid testnet wallet, validator name, and email/sms where you want test messages sent.
 * Once approved, a moderator will send you credentials for your account. This is the sid/secret you’ll use in the SDK to authenticate from the validator. Keep these credentials safe and never shared.
