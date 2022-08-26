@@ -18,6 +18,8 @@ This file contains an overview of the published and draft challenges for Stake W
 | [014](https://github.com/near/stakewars-iii/blob/main/challenges/014.md)| Published | 2022-08-17  | 2022-09-07 | Everstake      | Auto-backup node script                      | 15 DNP                 | Optional     | Shardnet       |
 | [015](https://github.com/near/stakewars-iii/blob/main/challenges/015.md) | Published | 2022-08-23   | 2022-09-07 | Meta Pool      | Kuutamo Service                       | 10 DNP                                                   | optional     | Shardnet       |
 | 016 | Pending | ----  | --- | Meta Pool      | -----                      | -----                 | ----     | Shardnet       |
+| [017](https://github.com/near/stakewars-iii/blob/main/challenges/017.md) | Pending | 2022-08-29   | 2022-09-07 | LiNEAR      | Run validator on Akash                       | 20 DNP                                                   | optional     | Shardnet       |
+| [018](https://github.com/near/stakewars-iii/blob/main/challenges/community-002.md) | Published | 2022-08-29   | 2022-09-07 | LiNEAR      | Video tutorials for the community          | 50 UNP<br>200USD in $LiNEAR for best submission | optional     | Shardnet       |
 
 Summary for the point system:
 * Delegated NEAR Points (DNP): at the end of the Stake Wars program, each Delegated NEAR Point (DNP) will be translated into 500 NEAR tokens delegated to your mainnet account for 1 year.
