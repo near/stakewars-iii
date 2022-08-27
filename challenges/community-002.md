@@ -1,3 +1,5 @@
+INCLUDE AN EDITABLE SUBMISSION FORM!
+
 # Community Challenge - Video tutorials
 * Published on: 2022-08-19
 * Updated on: 2022-08-19
