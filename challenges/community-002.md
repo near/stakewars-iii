@@ -34,3 +34,5 @@ We actually encourage you guys to record the video in your own language so that 
 - Popularity
   - How many views/likes/comments does the video receive by the time we start to judge? (5 points)
  
+### Submission
+Please submit your work at: https://forms.gle/XWARap2wkXvMyja19
