@@ -113,7 +113,7 @@ rm ~/.near/data/*
 
 cd ~/nearcore
 git fetch
-git checkout 68bfa84ed1455f891032434d37ccad696e91e4f5
+git checkout 24cbb11ce1e14aa267f787f011935a4465d3537d 
 cargo build -p neard --release --features shardnet
 
 cd ~/.near
