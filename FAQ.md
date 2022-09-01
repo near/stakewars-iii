@@ -36,9 +36,9 @@ Challenges will be announced throughout the entire period of the program, so sta
 
 Registration is now closed.
 
-~~You can join Stake Wars at any moment before the end date of the program. However, we encourage you to join as early as you can, to have enough time for solving the challenges and unlocking the rewards, and to take advantage of the support you will receive.
+~~You can join Stake Wars at any moment before the end date of the program. However, we encourage you to join as early as you can, to have enough time for solving the challenges and unlocking the rewards, and to take advantage of the support you will receive.~~
 
-~~Keep in mind that some challenges may need strict timelines and cannot be accessed after their due date. Also, we plan to move the playground from shardnet to testnet in early August 2022, and at that moment shardnet will no longer be in focus.
+~~Keep in mind that some challenges may need strict timelines and cannot be accessed after their due date. Also, we plan to move the playground from shardnet to testnet in early August 2022, and at that moment shardnet will no longer be in focus.~~
 
 #### 9. Who can join?
 We encourage anyone to join Stake Wars, solve the challenges, learn and be part of the program. However, there are a few restrictions related to reward eligibility: existing mainnet validators (as of July 13th 2022) are not eligible to receive rewards shared as delegated NEAR tokens. Members of Pagoda, Meta Pool, LiNEAR, Everstake and Open Shards Alliance are not eligible for any type of rewards.
