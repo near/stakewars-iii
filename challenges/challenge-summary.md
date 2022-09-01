@@ -18,7 +18,7 @@ This file contains an overview of the published and draft challenges for Stake W
 | [014](https://github.com/near/stakewars-iii/blob/main/challenges/014.md)| Published | 2022-08-17  | 2022-09-07 | Everstake      | Auto-backup node script                      | 15 DNP                 | Optional     | Shardnet       |
 | [015](https://github.com/near/stakewars-iii/blob/main/challenges/015.md) | Published | 2022-08-23   | 2022-09-07 | Meta Pool      | Kuutamo Service                       | 10 DNP                                                   | optional     | Shardnet       |
 | 016 | Pending | ----  | --- | Meta Pool      | -----                      | -----                 | ----     | Shardnet       |
-| [017](https://github.com/near/stakewars-iii/blob/main/challenges/017.md) | Published | 2022-08-29   | 2022-09-07 | LiNEAR      | Run validator on Akash                       | (Testnet Bounty)<br>100 USD in $LiNEAR for top 3 submissions | optional     | *Testnet* |
+| [017](https://github.com/near/stakewars-iii/blob/main/challenges/017.md) | Published | 2022-08-29   | 2022-09-07 | LiNEAR      | Run validator on Akash                       | (Testnet Bounty)<br> + 100 USD in $LiNEAR for top 3 submissions | optional     | *Testnet* |
 | [018](https://github.com/near/stakewars-iii/blob/main/challenges/community-002.md) | Published | 2022-08-29   | 2022-09-07 | LiNEAR      | Video tutorials for the community          | 50 UNP<br>200 USD in $LiNEAR for best submission | optional     | Shardnet       |
 
 Summary for the point system:
