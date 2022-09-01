@@ -2,6 +2,7 @@
 * Published on: 2022-08-19
 * Updated on: 2022-08-19
 * Submitted by: LiNEAR
+* Rewards: 50 UNP + 200 USD in $LiNEAR for best submission
 
 ### Description
 We believe that in stake war the success of building the community is as important as running validators. So in this challenge, we would like you guys to make video tutorials about NEAR stake war and publish your video to the Internet to benefit latecomers.      
